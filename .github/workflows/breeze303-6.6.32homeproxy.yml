@@ -1,4 +1,4 @@
-name: breeze303-6.6.32homeproxy.yml
+name: breeze303-6.6.32homeproxy
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: breeze303-6.6.32homeproxy.yml
+  FIRMWARE_TAG: breeze303-6.6.32homeproxy
   TZ: Asia/Shanghai
 
 jobs:
