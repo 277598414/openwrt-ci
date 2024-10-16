@@ -178,3 +178,5 @@ jobs:
           - 固件内核版本：${{ env.VERSION_KERNEL }}
           - 固件编译前最后一次➦[主源码](${{ env.REPO_URL }})更新记录
           - ${{ env.VERSION_INFO }}
+          - 源码更新日志
+            ${{ env.VERSION_LOG }}
