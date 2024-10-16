@@ -1,4 +1,4 @@
-name: ipq60xx-6.6.32homeproxy
+name: breeze303-6.6.32homeproxy.yml
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ipq60xx-6.6.32homeproxy
+  FIRMWARE_TAG: breeze303-6.6.32homeproxy.yml
   TZ: Asia/Shanghai
 
 jobs:
