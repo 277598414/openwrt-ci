@@ -1,4 +1,4 @@
-name: openwrt-ipq-homeproxy
+name: breeze303-ipq60xx-passwall
 
 on:
   workflow_dispatch:
@@ -8,13 +8,13 @@ on:
 env:
   REPO_URL: https://github.com/breeze303/openwrt-ipq.git
   REPO_BRANCH: main
-  CONFIG_FILE: configs/ipq60xx-homeproxy.config
+  CONFIG_FILE: configs/ipq60xx-ipq60xx-passwall.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: openwrt-ipq-homeproxy
+  FIRMWARE_TAG: breeze303-ipq-homeproxy
   TZ: Asia/Shanghai
 
 jobs:
