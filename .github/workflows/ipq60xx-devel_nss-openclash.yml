@@ -1,4 +1,4 @@
-name: openwrt-ipq60xx-passwall
+name: ipq60xx-devel_nss-openclash
 
 on:
   workflow_dispatch:
@@ -8,14 +8,14 @@ on:
 env:
   REPO_URL: https://github.com/277598414/openwrt.git
   REPO_BRANCH: ipq60xx-devel_nss
-  CONFIG_FILE: configs/ipq60xx-passwall.config
+  CONFIG_FILE: configs/pq60xx-openclash.config
   PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: openwrt-ipq60xx-passwall
+  FIRMWARE_TAG: ipq60xx-devel_nss-openclash
   TZ: Asia/Shanghai
 
 jobs:
