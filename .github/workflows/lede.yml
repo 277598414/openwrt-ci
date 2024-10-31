@@ -8,7 +8,7 @@ on:
 env:
   REPO_URL: https://github.com/277598414/lede.git
   REPO_BRANCH: master
-  CONFIG_FILE: configs/lede.config
+  CONFIG_FILE: configs/ipq60xx-homeproxy.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
