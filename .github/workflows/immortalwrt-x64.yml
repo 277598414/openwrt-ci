@@ -1,4 +1,4 @@
-name: x86-64
+name: immortalwrt-x64
 
 on:
   workflow_dispatch:
@@ -8,13 +8,13 @@ on:
 env:
   REPO_URL: https://github.com/277598414/immortalwrt.git
   REPO_BRANCH: master
-  CONFIG_FILE: configs/x86-64.config
+  CONFIG_FILE: configs/x86-homeproxy.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: x86-64
+  FIRMWARE_TAG: immortalwrt-x64
   TZ: Asia/Shanghai
 
 jobs:
