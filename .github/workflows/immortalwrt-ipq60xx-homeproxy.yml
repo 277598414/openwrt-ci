@@ -1,4 +1,4 @@
- name: immortalwrt-ipq60xx-homeproxy
+name: immortalwrt-ipq60xx-homeproxy
 on:
   workflow_dispatch:
   schedule:
