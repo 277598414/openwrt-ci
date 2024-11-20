@@ -1,4 +1,4 @@
-name: immortalwrt-ipq60xx-homeproxy
+name: immortalwrt-ipq60xx
 on:
   workflow_dispatch:
   schedule:
@@ -13,7 +13,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: immortalwrt-ipq60xx-homeproxy
+  FIRMWARE_TAG: immortalwrt-ipq60xx
   TZ: Asia/Shanghai
 
 jobs:
