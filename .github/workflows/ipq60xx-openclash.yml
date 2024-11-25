@@ -1,4 +1,4 @@
-name: breeze303-openclash
+name: ipq60xx-openclash
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: breeze303-openclash
+  FIRMWARE_TAG: ipq60xx-openclash
   TZ: Asia/Shanghai
 
 jobs:
