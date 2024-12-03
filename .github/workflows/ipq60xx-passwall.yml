@@ -1,4 +1,4 @@
-name: ipq60xx-passwall
+name: ipq60xx-b-passwall
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ipq60xx-passwall
+  FIRMWARE_TAG: ipq60xx-b-passwall
   TZ: Asia/Shanghai
 
 jobs:
