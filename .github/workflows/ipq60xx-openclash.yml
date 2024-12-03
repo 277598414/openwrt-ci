@@ -1,4 +1,4 @@
-name: ipq60xx-openclash
+name: ipq60xx-openclash-b
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ipq60xx-openclash
+  FIRMWARE_TAG: ipq60xx-openclash-b
   TZ: Asia/Shanghai
 
 jobs:
