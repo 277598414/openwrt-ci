@@ -1,4 +1,4 @@
-name: ipq60xx-cj-j
+name: ipq60xx-j-cj
 on:
   workflow_dispatch:
   schedule:
@@ -13,7 +13,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ipq60xx-cj-j
+  FIRMWARE_TAG: ipq60xx-j-cj
   TZ: Asia/Shanghai
 
 jobs:
