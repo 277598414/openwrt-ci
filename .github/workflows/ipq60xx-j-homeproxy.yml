@@ -1,4 +1,4 @@
-name: ipq60xx-homeproxy-j
+name: ipq60xx-j-homeproxy
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ipq60xx-homeproxy-j
+  FIRMWARE_TAG: ipq60xx-j-homeproxy
   TZ: Asia/Shanghai
 
 jobs:
