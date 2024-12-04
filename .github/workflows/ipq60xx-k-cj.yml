@@ -1,4 +1,4 @@
-name: x64-6.12
+name: ipq60xx-k-cj
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: x64-6.12
+  FIRMWARE_TAG: ipq60xx-k-cj
   TZ: Asia/Shanghai
 
 jobs:
