@@ -3,7 +3,7 @@ name: ipq60xx-k-cj
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 19 * * *
+    - cron: 0 0 * * *
 
 env:
   REPO_URL: https://github.com/King-Of-Knights/openwrt-6.x.git
