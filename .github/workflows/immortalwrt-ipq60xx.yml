@@ -2,7 +2,7 @@ name: immortalwrt-ipq60xx
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 19 * * *
+    - cron: 0 0 * * *
 
 env:
   REPO_URL: https://github.com/277598414/immortalwrt.git
