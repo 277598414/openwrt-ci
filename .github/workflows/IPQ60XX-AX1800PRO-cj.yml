@@ -1,4 +1,4 @@
-name: IPQ60XX-immortalwrt
+name: IPQ60XX-AX1800PRO-cj
 
 on:
   workflow_dispatch:
@@ -8,13 +8,13 @@ on:
 env:
   REPO_URL: https://github.com/277598414/openwrt-6.x.git
   REPO_BRANCH: mian
-  CONFIG_FILE: configs/ipq60xx-openclash.config
+  CONFIG_FILE: configs/ipq60xx-cj.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-immortalwrt
+  FIRMWARE_TAG: IPQ60XX-AX1800PRO-cj
   TZ: Asia/Shanghai
 
 jobs:
